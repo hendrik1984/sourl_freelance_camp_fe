@@ -21,7 +21,8 @@ Notes: if you installed the latest node (Up to version >= 12) please make sure u
 `npm start`
 
 # Issues when build this project
-1. Can't run server https://stackoverflow.com/questions/42030393/angular2-error-for-start-tsc-concurrently
+1. if you follow udemy course Angular 2 + Rails 5 Bootcamp, the script npm start wont start because there is a script that can't run for node v10 follow this solution to solve and run the project under node v10
+Can't run server https://stackoverflow.com/questions/42030393/angular2-error-for-start-tsc-concurrently
  just update the npm start script following this method
  ---
 
