@@ -3,6 +3,7 @@
 
 # Version
 Angular 2
+node 10 for this project
 ---
 
 # How to run this project
