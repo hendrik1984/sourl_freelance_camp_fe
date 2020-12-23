@@ -4,6 +4,7 @@
 # Version
 Angular 2
 node 10 for this project
+ngbootstrap ^8.0.0 (installed by system)
 ---
 
 # How to run this project
@@ -29,3 +30,8 @@ Can't run server https://stackoverflow.com/questions/42030393/angular2-error-for
 
 # Useful Links
 1. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+2. https://ng-bootstrap.github.io/#/getting-started
+
+# install Ng Bootstrap
+Installing the library itself from npm is simply doing
+`npm install @ng-bootstrap/ng-bootstrap`
