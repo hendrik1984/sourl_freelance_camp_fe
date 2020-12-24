@@ -4,7 +4,7 @@
 # Version
 Angular 2
 node 10 for this project
-ngbootstrap ^8.0.0 (installed by system)
+ngbootstrap 1.0.0-alpha.13
 ---
 
 # How to run this project
@@ -32,6 +32,11 @@ Can't run server https://stackoverflow.com/questions/42030393/angular2-error-for
 1. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 2. https://ng-bootstrap.github.io/#/getting-started
 
-# install Ng Bootstrap
-Installing the library itself from npm is simply doing
-`npm install @ng-bootstrap/ng-bootstrap`
+# install Ng Bootstrap issues for this project
+why this version because we want use NgbMobule.forRoot() on app.module.ts 
+
+forRoot() function already remove on newer version.
+
+imports: [NgbModule.forRoot()] location app.module.ts
+
+https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap/v/1.0.0-alpha.13
